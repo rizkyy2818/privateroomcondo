@@ -51,8 +51,4 @@ async def dmall_error(ctx, error):
     else:
         await ctx.send(f"⚠️ Error: {error}")
 
-# ===== IMPORTANT: KEEP BOT ALIVE =====
-import keep_alive
-keep_alive.run()
-
 bot.run(TOKEN)
